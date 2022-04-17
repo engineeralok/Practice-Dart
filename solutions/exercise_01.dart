@@ -5,7 +5,7 @@ void main() {
   String name = stdin.readLineSync();
 
   print("Hi, $name! What is your age?");
-  int age = int.parse(stdin.readLineSync());
+  int age = int.parse(stdin.readLineSync());//The argument type 'String?' can't be assigned to the parameter type 'String'.
 
   int yearsToHunderd = 100 - age;
   print("$name, You have $yearsToHunderd years to be 100");
